@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Source+Code+Pro:ital,wght@0,400;1,300;1,400&family=Yeon+Sung&display=swap');
+
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    /* font-family: 'East Sea Dokdo', cursive; */
+    /* font-family: 'Source Code Pro', monospace;  */
+    font-family: 'Yeon Sung', cursive;
+   
+}
+
+:root{
+    --primary-color: #f1ce08;
+    --secondary-color:#0E49B5;
+}
+
+#input-txt{
+    width: 60%;
+    display:block;
+    padding: 1rem;
+    margin: 2rem auto;
+    height: 10vh;
+    border: 2px solid black;
+    /* border-radius: 1rem; */
+    font-size: 20px;
+    /* overflow-x:auto; */
+}
+
+#out{
+    padding: 1rem;
+    margin: 2rem auto;
+}
+#output{
+    border: 2px solid black;
+    width: 60%;
+    height: 10vh;
+    padding: 1rem;
+    margin: 2rem auto;
+    /* border-radius: 1rem; */
+    font-size: 20px;
+    /* scroll-margin-right: 0.5rem; */
+    overflow-x:auto;
+    /* overflow-y: auto; */
+    /* overflow: auto; */
+}
+div.ex1 {
+    /* background-color: lightblue; */
+    width: 100px;
+    height: 100px;
+    overflow: scroll;
+  }
+
+.navigation{
+    background-color: var(--primary-color);
+    color:var(--secondary-color);
+    padding: 1rem;
+    /* border-bottom-left-radius:1rem;
+    border-bottom-right-radius:1rem; */
+    text-align: center;  
+}
+
+.navigation small{
+    font-size: 1.5rem;
+}
+
+.navigation strong{
+    font-size: 2rem;
+}
+
+.btn{
+    text-align: center;
+}
+
+#btn-translate{
+    background-color: var(--primary-color);
+    border: 1px solid black;
+    /* border-radius: 0.5rem; */
+    font-size: 18px;
+    padding: 0.5rem;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    color:var(--secondary-color);
+    padding: 1rem;
+    /* border-top-right-radius:1rem;
+    border-top-left-radius:1rem; */
+    height: 18vh;
+    text-align: center;
+}
+
+#about{
+    margin: 1rem;
+}
